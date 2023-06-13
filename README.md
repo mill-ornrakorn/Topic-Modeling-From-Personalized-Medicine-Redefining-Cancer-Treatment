@@ -47,11 +47,11 @@
 ## Exploratory Data Analysis (EDA) 📊
 - **ความยาวของ Text ในข้อมูล**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/0.jpg?raw=true" alt= "boxplot" height="200">
+<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/0.jpg?raw=true" alt= "boxplot" height="90">
 </p>
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/1.jpg?raw=true" alt= "histo" height="200">
+<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/1.jpg?raw=true" alt= "histo" height="300">
 </p>
 
 จากทั้งสองกราฟ จะเห็นว่าข้อมูลนี้เป็นข้อมูล text ที่มีความยาวอย่างมาก ส่วนใหญ่จะมีความยาวประมาณ 5000 เลย 
@@ -60,26 +60,43 @@
 
 เพื่อให้เห็นภาพมากขึ้นเรายกตัวอย่างข้อมูลจาก column TEXT **เพียง 1 row** โดยมีความยาว (str.len()) อยู่ที่ 39,672
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/2.jpg?raw=true" alt= "text" height="200">
+<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/2.jpg?raw=true" alt= "text" height="400">
 </p>
 
 
 - **จำนวนแต่ละ Class ในข้อมูล**
 <!--เดี๋ยวมาเพิ่ม -->
 
+- **จำนวน Gene ที่พบมาก 10 อันดับ**
+<!--เดี๋ยวมาเพิ่ม -->
 
-
+- **จำนวน Variation ที่พบมาก 10 อันดับ**
+<!--เดี๋ยวมาเพิ่ม -->
 
 - **Wordcloud**
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/wordcloud.png?raw=true" alt= "Wordcloud" height="250">
+<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/wordcloud.png?raw=true" alt= "Wordcloud" height="300">
 </p>
+
+
+- **จำนวน Text ที่พบมาก 10 อันดับ**
+<!--เดี๋ยวมาเพิ่ม -->
+
+- **มี Text ที่เหมือนกัน แต่อยู่คนละ Class**
+<!--เดี๋ยวมาเพิ่ม -->
+
+- **สรุปสิ่งสิ่ที่ได้จากการทำ EDA**
+  - จำนวนข้อมูลในแต่ละ Class ของข้อมูล train มีไม่เท่ากัน
+  - ข้อมูลในบาง Class มีจำนวนน้อยเกินไป
+  - column text ในบาง row เหมือนกันทั้งหมด
+  - ความหมายของ Class ไม่ชัดเจน
+
 
 
 ## Modeling 
 
 <p align="center">
-<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/7.jpg?raw=true" alt= "text" height="200">
+<img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/7.jpg?raw=true" alt= "text" height="300">
 </p>
 
 **📍note that:** รายละเอียดการทำ Data Preparation สามารถดูได้เพิ่มได้ใน 
