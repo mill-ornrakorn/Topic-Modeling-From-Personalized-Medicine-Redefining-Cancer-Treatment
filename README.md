@@ -44,6 +44,11 @@
 </p>
 
 
+## Tools ⚙
+1. **python** โดยใช้ library ดังนี้ pandas, nltk, re, PorterStemmer, WordNetLemmatizer, Counter, matplotlib.pyplot, WordCloud, LatentDirichletAllocation, CountVectorizer
+2. **tableau** (for Students)
+
+
 ## Exploratory Data Analysis (EDA) 📊
 - **ความยาวของ Text ในข้อมูล**
 <p align="center">
@@ -133,7 +138,7 @@
 
 <hr>
 
-- **สรุปสิ่งสิ่ที่ได้จากการทำ EDA**
+- **สรุปสิ่งที่ได้จากการทำ EDA**
   - จำนวนข้อมูลในแต่ละ Class ของข้อมูล train มีไม่เท่ากัน
   - ข้อมูลในบาง Class มีจำนวนน้อยเกินไป
   - column text ในบาง row เหมือนกันทั้งหมด
@@ -164,50 +169,50 @@ Unsupervised learning [(1)](http://ir-ithesis.swu.ac.th/dspace/bitstream/1234567
 <!--เดี๋ยวมาเพิ่ม -->
 
 - Class ที่ 1
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class1.jpg?raw=true" alt= "text" height="200">
 </p>
 
 
 - Class ที่ 2
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class2.jpg?raw=true" alt= "text" height="200">
 </p>
 
 
 - Class ที่ 3
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class3.jpg?raw=true" alt= "text" height="200">
 </p>
 
 
 - Class ที่ 4
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class4.jpg?raw=true" alt= "text" height="200">
 </p>
 
 - Class ที่ 5
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class5.jpg?raw=true" alt= "text" height="200">
 </p>
 
 - Class ที่ 6
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class6.jpg?raw=true" alt= "text" height="200">
 </p>
 
 - Class ที่ 7
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class7.jpg?raw=true" alt= "text" height="200">
 </p>
 
 - Class ที่ 8
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class8.jpg?raw=true" alt= "text" height="200">
 </p>
 
 - Class ที่ 9
-<p align="center">
+<p align="left">
 <img src="https://github.com/mill-ornrakorn/Topic-Modeling-From-Personalized-Medicine-Redefining-Cancer-Treatment/blob/main/pic%20for%20readme/class9.jpg?raw=true" alt= "text" height="200">
 </p>
 
