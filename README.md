@@ -18,7 +18,7 @@
 ## Data source 📁
 ข้อมูลที่ใช้มาจาก kaggle: [Personalized Medicine: Redefining Cancer Treatment](https://www.kaggle.com/competitions/msk-redefining-cancer-treatment/overview) ซึ่งในข้อมูลนี้มีหลายไฟล์มาก แต่ในการทำ Topic Modeling เราจะใช้ไฟล์ ```training_variants``` และ ```training_text``` ทั้งสองไฟล์มี 3,321 datapoints
 
-- training_variants ประกอบด้วย 4 Columns ดังนี้
+- **training_variants** ประกอบด้วย 4 Columns ดังนี้
   1. ID = (the id of the row used to link the mutation to the clinical evidence)
   2. Gene (the gene where this genetic mutation is located)
   3. Variation (the aminoacid change for this mutations)
@@ -31,7 +31,7 @@
 </p>
 
 
-- training_text ประกอบด้วย 2 Columns ดังนี้
+- **training_text** ประกอบด้วย 2 Columns ดังนี้
   1. ID (the id of the row used to link the clinical evidence to the genetic mutation)
   2. Text (the clinical evidence used to classify the genetic mutation)
 
@@ -248,3 +248,17 @@ https://www.hsri.or.th/people/media/infographic/detail/14120
 
 3. National Library of Medicine. PDGFRA platelet derived growth factor receptor alpha [ Homo sapiens (human) ] [อินเทอร์เน็ต]
 . [เข้าถึงเมื่อ 22 พ.ย. 65]. เข้าถึงได้จาก: https://www.ncbi.nlm.nih.gov/gene/5156
+
+
+## Credits Section📄
+- <a href="https://www.flaticon.com/free-icons/word" title="word icons">Word icons created by Freepik - Flaticon</a>
+
+- <a href="https://www.flaticon.com/free-icons/school" title="school icons">School icons created by Freepik - Flaticon</a>
+
+- <a href="https://www.flaticon.com/free-icons/stop" title="stop icons">Stop icons created by Freepik - Flaticon</a>
+
+- <a href="https://www.flaticon.com/free-icons/scrabble" title="scrabble icons">Scrabble icons created by Febrian Hidayat - Flaticon</a>
+
+- <a href="https://www.flaticon.com/free-icons/machine-learning" title="machine learning icons">Machine learning icons created by wanicon - Flaticon</a>
+
+- <a href="https://www.flaticon.com/free-icons/sms" title="sms icons">Sms icons created by Moon.de - Flaticon</a>
